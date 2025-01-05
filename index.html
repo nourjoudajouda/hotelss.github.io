@@ -120,12 +120,12 @@
     <!-- End Navbar -->
 
     <!-- Start Home Section -->
-    <section class="home-section">
+    <section class="home-section" id="target-element" style="background-image: url('images/backgrounds/Web Layout.png');">
       <div
         class="container position-relative h-100 wow animate__animated animate__fadeInUp">
         <div class="home-text">
           <h1 class="fw-bold">
-            إجازتك مع <span class="text-accent">الذهبية
+            إجازتك مع <span class="text-accent" id="text-header">الذهبية
               العالمية</span><br />إستثنائية لك ولعائلتك
           </h1>
           <h2 class="text-white fw-bold">
@@ -139,6 +139,7 @@
             <ul class="nav nav-tabs" id="outerTab" role="tablist">
               <li class="nav-item">
                 <a
+                  onclick="Function_1()"
                   class="nav-link active"
                   id="outer-flights-tab"
                   data-bs-toggle="tab"
@@ -150,6 +151,7 @@
               </li>
               <li class="nav-item">
                 <a
+                 onclick="Function_2()"
                   class="nav-link"
                   id="outer-hotels-tab"
                   data-bs-toggle="tab"
@@ -2665,7 +2667,18 @@
           <img src="images/whatsapp.png" alt="WhatsApp" />
         </a>
       </div>
+      <script>
+        function Function_1(){
+          $('#target-element').css('background-image', "url('images/backgrounds/Web Layout.png')");
+          $('#text-header').css('color','#c19617')
 
+        }
+        function Function_2(){
+          $('#target-element').css('background-image', "url('images/backgrounds/Header.png')");
+          $('#text-header').css('color','#00806e')
+        }
+
+      </script>
       <script src="./js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
