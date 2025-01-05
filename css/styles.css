@@ -273,7 +273,7 @@ a {
 
 /*  Start Home Section */
 #target-element {
-  transition: background-image 0.5s ease-in-out;
+  transition: background-image 0.3s ease-in-out;
 }
 .home-section {
   /* background-image: url("../images//backgrounds/home-header.png"); */
