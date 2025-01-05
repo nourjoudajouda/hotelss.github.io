@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>الذهبية العالمية للسياحة</title>
+        <link rel="icon" href="images/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/media.css" />
+    </head>
+
+    <body>
+        <!-- Start Preloader HTML -->
+        <div id="preloader">
+            <div class="loading-container">
+                <img src="./images/logo.png" alt="Logo" />
+            </div>
+        </div>
+        <!-- End Preloader HTML -->
+
+        <!-- Start Topbar Alert -->
+        <div
+            id="alert"
+            class="topbar alert d-none d-md-flex justify-content-center align-items-center alert-dismissible show m-0 text-center border-0 rounded-0"
+            role="alert">
+            <div class="container position-relative">
+                أكتوبر ذهبي مع الذهبية العالمية ،، إحجز تذكرتك
+                <img src="./images/topbar.png" alt loading="lazy" />
+                خصومات تصل إلى <span>10%</span> عرحلات مميزة خلال شهر أكتوبر
+                <button
+                    type="button"
+                    id="closeAlert"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    aria-label="Close">
+                    <img src="images/Frame.png">
+                </button>
+            </div>
+        </div>
+        <!-- End Topbar Alert -->
+
+        <!--Start Navbar -->
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container h-100">
+                <div
+                    class="navbar-container d-flex justify-content-between align-items-center">
+                    <a id="navbar-brand" class="navbar-brand" href="#">
+                        <img src="./images/logo.png" alt="Logo"
+                            loading="lazy" />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-top flex-column flex-lg-row justify-content-between align-items-center"
+                        id="offcanvasNavbar">
+                        <button
+                            class="btn-close d-lg-none ms-auto me-3"
+                            type="button"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                        <ul class="navbar-nav mb-3 mb-lg-0 mx-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active"
+                                    href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="./pages/mn-nhn.html">من نحن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="./pages/alshrwt-walahkam.html">الشروط
+                                    والاحكام</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="./pages/contact-us.html">تواصل
+                                    معنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="./pages/privacy-policy.html">سياسة
+                                    الخصوصية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">قيمنا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#bookingInquiryModal">استعلام
+                                    حجز</a>
+                            </li>
+                        </ul>
+                        <div class="header-icons">
+                            <a
+                                href="https://wa.me/+966920029449"
+                                target="_blank"
+                                title="واتساب">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" class="mx-3" title="تسجيل الدخول">
+                                <i class="fa-regular fa-user"></i>
+                            </a>
+                            <a href="#"><i class="far fa-heart"
+                                    title="المفضلة"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <hr style="margin-top:75px;">
+
+
+        <div class="container">
+            <!-- Start breadcrumb -->
+            <nav aria-label="breadcrumb" class="mt-5">
+                <ol class="breadcrumb h-breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                    <li class="breadcrumb-item"><a href="#">الفنادق</a></li>
+                    <li class="breadcrumb-item"><a href="#">الرياض</a></li>
+                    <li class="breadcrumb-item active"
+                        aria-current="page">تفاصيل فندق الرياض</li>
+                </ol>
+            </nav>
+            <!-- End breadcrumb -->
+
+            <!-- Start Gallary -->
+            <div class="gallary">
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <img src="images/hotel-page/image 1.png"
+                            class="w-100 h-90" alt="gallay"
+                            onclick="openLightbox(); currentSlide(1)">
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <img src="images/hotel-page/image 2.png"
+                            class="w-100 h-90" alt="gallay"
+                            onclick="openLightbox(); currentSlide(2)">
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <img src="images/hotel-page/image 4.png"
+                            class="w-100 h-90" alt="gallay"
+                            onclick="openLightbox(); currentSlide(3)">
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <img src="images/hotel-page/image 4.png"
+                            class="w-100 h-100" alt="gallay"
+                            onclick="openLightbox(); currentSlide(4)">
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <img src="images/hotel-page/image 3.png"
+                            class="w-100 h-100" alt="gallay"
+                            onclick="openLightbox(); currentSlide(5)">
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <img src="images/hotel-page/image 7.png"
+                            class="w-100 h-100" alt="gallay"
+                            onclick="openLightbox(); currentSlide(6)">
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <img src="images/hotel-page/image 4.png"
+                            class="w-100 h-100" alt="gallay"
+                            onclick="openLightbox(); currentSlide(7)">
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <img src="images/hotel-page/image 4.png"
+                            class="w-100 h-100" alt="gallay"
+                            onclick="openLightbox(); currentSlide(8)">
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <img src="images/hotel-page/image 6.png"
+                            class="w-100 h-100" alt="gallay"
+                            onclick="openLightbox(); currentSlide(9)">
+                    </div>
+                </div>
+            </div>
+            <div id="lightbox" class="lightbox">
+                <span class="close" onclick="closeLightbox()">&times;</span>
+                <div class="lightbox-content">
+                    <div class="mySlides">
+                        <img src="images/hotel-page/image 1.png" alt="Image 1">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/hotel-page/image 2.png" alt="Image 2">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/hotel-page/image 4.png" alt="Image 3">
+                    </div>
+                    <div class="mySlides">
+                        <img src="images/hotel-page/image 4.png" alt="Image 3">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+            <!-- End Gallary -->
+
+            <!-- Start Details Hotel -->
+            <div class="row my-4">
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-10">
+                            <h4 class="text-accent fw-bold">فندق جي دبليو ماريوت
+                                -
+                                الرياض</h4>
+                        </div>
+                        <div class="col-2 text-end pt-2">
+                            <i class="fa fa-share-alt text-warning share-icon"
+                                aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="rating mt-3">
+                        <i class="fas fa-star text-warning"></i>
+                        <small><span class="text-warning">5.0</span>(0.258
+                            مراجعة)</small>
+                    </div>
+                    <div class="description-hotel my-3">
+                        <p>اكتشف جمال العاصمة تبليسي ومعالمها الثقافية الرائعة.
+                            استرخِ
+                            على شواطئ البحر الأسود في باتومي واستمتع بالحياة
+                            الليلية
+                            المفعمة بالحيوية. احجز الآن لتجربة فريدة تجمع بين
+                            الثقافة
+                            والطبيعة</p>
+                    </div>
+                    <div class="location-hotel">
+                        <h4 class="text-accent fw-bold mt-2">الموقع</h4>
+                        <iframe class="map mt-3"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1855.4004562649789!2d39.17290115826746!3d21.554638596429015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d1d1c501f807%3A0x1dcf06a8b4c902eb!2sBrand+Details!5e0!3m2!1sen!2ssa!4v1538652890926"
+                            width="100%" height="325" frameborder="0"
+                            allowfullscreen style="border-radius:8px;"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-accent fw-bold"> مميزات ووسائل
+                                الراحة في
+                                فندق جي دبليو ماريوت -
+                                الرياض</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/mdi_car-brake-parking.png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">كراج</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/ic_outline-restaurant-menu.png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">مطعم</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (5).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">wifi</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/bx_swim.png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">ساونا</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (5).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">تنظيف جاف</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/bx_swim.png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">مسبح</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (4).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">لياقة</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (3).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">مصعد</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (4).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">wifi</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (2).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">لياقة</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Frame (1).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">اسعافات</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Group 2608642 (1).png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">منتج صحي</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/Group 2610444.png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">غسيل</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-4">
+                            <div class="feature-hotel mt-2">
+                                <img
+                                    src="images/hotel-page/mdi_car-brake-parking.png"
+                                    alt="feature" loading="feature" width="30px"
+                                    height="30px" />
+                                <h6 class="mt-1">كراج</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="search-hotel">
+                            <h3 class="text-accent fw-bold">خصص ما تبحث عنه</h3>
+                            <form class="row">
+                                <div
+                                    class="col-md-3 mb-2 form-group position-relative">
+                                    <label for="travelTo"
+                                        class="form-label">تاريخ
+                                        الوصول</label>
+                                    <input
+                                        type="date"
+                                        id="travelTo"
+                                        autocomplete="off"
+                                        placeholder="وجهة الوصول"
+                                        class="form-control destinations-input" />
+                                    <ul
+                                        class="selector-box list-unstyled"></ul>
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <label for="travelDate"
+                                        class="form-label">تاريخ
+                                        الذهاب</label>
+                                    <input
+                                        type="date"
+                                        id="travelDate"
+                                        data-date-format="yyyy-mm-dd"
+                                        class="form-control" />
+                                </div>
+                                <!-- <div class="col-md-2 mb-2">
+                                <label for="travelType"
+                                    class="form-label">نوع
+                                    الرحلة</label>
+                                <select id="travelType" class="form-select">
+                                    <option
+                                        value="ECONOMY">اقتصادية</option>
+                                    <option value="PREMIUM_ECONOMY">
+                                        اقتصادية مميزه
+                                    </option>
+                                    <option value="BUSINESS">اعمال</option>
+                                    <option value="FIRST">اولي</option>
+                                </select>
+                            </div> -->
+                                <div class="col-md-2">
+                                    <label for="adults"
+                                        class="form-label">بالغين</label>
+                                    <input
+                                        type="number"
+                                        id="adults"
+                                        placeholder="1"
+                                        class="form-control"
+                                        min="0" />
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="children"
+                                        class="form-label">الاطفال</label>
+                                    <input
+                                        type="number"
+                                        id="children"
+                                        placeholder="0"
+                                        class="form-control"
+                                        min="0" />
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="infants"
+                                        class="form-label">الرضع</label>
+                                    <input
+                                        type="number"
+                                        id="infants"
+                                        placeholder="0"
+                                        class="form-control"
+                                        min="0" />
+                                </div>
+                                <div class="col-md-3">
+                                    <div
+                                        class="search-btn text-center text-md-end mt-3">
+                                        <button
+                                            type="button"
+                                            id="search-btn"
+                                            class="btn btn-main">
+                                            بحث
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Details Hotel -->
+
+            <!-- Start suitable-option -->
+            <section class="suitable-option mt-5">
+                <div class="container wow animate__animated animate__fadeInUp">
+                    <h2 class="section-title fw-bold">
+                        حدد الخيار الأنسب لك
+                    </h2>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100 "
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#bookingroomModal"
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 mb-4">
+                            <div class="card border-0 rounded-4">
+                                <div class="col-12">
+                                    <img
+                                        src="images/popular-hotels/hotel.png"
+                                        loading="lazy" width="100%" />
+                                </div>
+                                <div class="p-3">
+                                    <div class="row my-2">
+                                        <div class="col-lg-6 col-6">
+                                            <h6 class="card-title">
+                                                <span class="me-2 fw-bold">اسم
+                                                    الغرفة</span>
+                                            </h6>
+                                        </div>
+                                        <div
+                                            class="col-lg-6 col-6 text-end text-warning">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="row features-room">
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group.png"
+                                                loading="location">
+                                            <h6 class="text-secondary"> مساحة
+                                                الغرفة
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                سرير واحد فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Group (2).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                تكييف
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame (1).png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                إقامة فقط
+                                            </h6>
+                                        </div>
+                                        <div class="col-lg-4 col-6"
+                                            style="display: ruby;">
+                                            <img
+                                                src="images/hotel-page/sutiable-option/Frame.png"
+                                                loading="location">
+                                            <h6 class="text-secondary">
+                                                أسرة أطفال
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6
+                                                class="text-danger text-decoration-underline">غير
+                                                قابل للاسترداد</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <small class="text-secondary">غرفة
+                                                واحدة فقط</small>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-6">
+                                            <h6>إجمالي الضيوف (*1)</h6>
+                                        </div>
+                                        <div class="col-lg-6 col-6 text-end">
+                                            <h6 class="text-accent fw-bold">SAR
+                                                5.965</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <p class="card-button mt-2">
+                                                <a
+                                                    class="btn btn-main btn-sm xy-popularsearch w-100"
+                                                    href="https://booking.flynas.com/#/booking/search-redirect?origin=RUH&amp;destination=BAH&amp;origin1=undefined&amp;destination1=0&amp;currency=SAR&amp;departureDate=2024-10-04&amp;returnDate=null&amp;flightMode=oneway&amp;adultCount=1&amp;childCount=0&amp;infantCount=0&amp;culture=en-GB&amp;utm_source=&amp;tagtag_uid="
+                                                    tabindex="-1">احجز
+                                                    الغرفة</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End suitable-option -->
+
+            <!-- Start Places -->
+            <div class="row my-4">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-accent fw-bold">
+                                الأماكن القريبة من الفندق
+                            </h4>
+                        </div>
+                        <div class="row places">
+                            <div class="col-lg-3 col-12">
+                                <div
+                                    class="info-place offers-section rounded-2 my-3">
+                                    <div class>
+                                        <img
+                                            src="images/hotel-page/svgexport-21 1.png"
+                                            alt="location"
+                                            loading="location" />
+                                        <h6 class="fw-bold d-inline mx-2">اسم
+                                            المكان</h6>
+                                    </div>
+                                    <small class="fw-bold">9.4 K</small>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <div
+                                    class="info-place offers-section rounded-2 my-3">
+                                    <div class>
+                                        <img
+                                            src="images/hotel-page/svgexport-21 1.png"
+                                            alt="location"
+                                            loading="location" />
+                                        <h6 class="fw-bold d-inline mx-2">اسم
+                                            المكان</h6>
+                                    </div>
+                                    <small class="fw-bold">9.4 K</small>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3 col-12">
+                                <div
+                                    class="info-place offers-section rounded-2 my-3">
+                                    <div class>
+                                        <img
+                                            src="images/hotel-page/svgexport-21 1.png"
+                                            alt="location"
+                                            loading="location" />
+                                        <h6 class="fw-bold d-inline mx-2">اسم
+                                            المكان</h6>
+                                    </div>
+                                    <small class="fw-bold">9.4 K</small>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-3 col-12">
+                                <div
+                                    class="info-place offers-section rounded-2 my-3">
+                                    <div class>
+                                        <img
+                                            src="images/hotel-page/svgexport-21 1.png"
+                                            alt="location"
+                                            loading="location" />
+                                        <h6 class="fw-bold d-inline mx-2">اسم
+                                            المكان</h6>
+                                    </div>
+                                    <small class="fw-bold">9.4 K</small>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Places -->
+
+            <!-- Start Q. -->
+            <div class="row  my-4">
+                <div class="col-lg-12 col-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="text-accent fw-bold">
+                                أسئلة الضيوف
+                            </h4>
+                        </div>
+                        <div class="col-12 Questions">
+                            <div class="accordion" id="faqAccordion">
+                                <!-- FAQ 1 -->
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header"
+                                        id="headingOne">
+                                        <button class="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne"
+                                            aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            هذا النص هو مثال لنص يمكن أن يستبدل
+                                            في نفس المساحة، لقد تم توليد هذا
+                                            النص من مولد النص العربى؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne"
+                                        class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            هذا النص هو مثال لنص يمكن أن يستبدل
+                                            في نفس المساحة، لقد تم توليد هذا
+                                            النص من مولد النص العربى، حيث يمكنك
+                                            أن تولد مثل هذا النص أو العديد من
+                                            النصوص الأخرى اضافة الى زيادة عدد
+                                            الحروف التي يولدها التطبيق
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 2 -->
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header"
+                                        id="headingTwo">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            هذا النص هو مثال لنص يمكن أن يستبدل
+                                            في نفس المساحة، لقد تم توليد هذا
+                                            النص من مولد النص العربى؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            هذا النص هو مثال لنص يمكن أن يستبدل
+                                            في نفس المساحة، لقد تم توليد هذا
+                                            النص من مولد النص العربى؟
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- FAQ 3 -->
+                                <div class="accordion-item border-0 mb-3">
+                                    <h2 class="accordion-header"
+                                        id="headingThree">
+                                        <button
+                                            class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            هذا النص هو مثال لنص يمكن أن يستبدل
+                                            في نفس المساحة، لقد تم توليد هذا
+                                            النص من مولد النص العربى؟
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree"
+                                        data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            هذا النص هو مثال لنص يمكن أن يستبدل
+                                            في نفس المساحة، لقد تم توليد هذا
+                                            النص من مولد النص العربى؟
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Q. -->
+
+            <!-- Start Enter Q. -->
+            <div class="row my-4 e-q">
+                <div class="col-lg-12 col-12">
+                    <h4 class="fw-bold">
+                        أخبرنا عن ما يدور في بالك أيضاً
+                    </h4>
+                    <div class=" input-group my-3">
+
+                        <input type="text"
+                            class="form-control border-0 fw-bold"
+                            placeholder="أدخل السؤال الذي يخطر ببالك لنقم بالرد عليك "
+                            aria-label
+                            aria-describedby="basic-addon1">
+                        <span
+                            class="input-group-text btn-send px-4"
+                            id="basic-addon1"><img
+                                src="images/hotel-page/send-2.png"
+                                alt="location"
+                                loading="location" /></span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Enter Q. -->
+        </div>
+
+        <!-- Start Footer Section -->
+        <footer class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3 mb-2">
+                        <img
+                            class="img-fluid"
+                            src="images/logo.png"
+                            alt
+                            width="100px"
+                            loading="lazy" />
+                        <h6 class="my-3">هذا النص هو مثال لنص يمكن أن يستبدل في
+                            نفس المساحة، لقد تم توليد هذا النص من مولد النص
+                            العربى، حيث يمكنك..</h6>
+                    </div>
+                    <div class="col-6 col-md-2 mb-2">
+                        <h4>معلومات الشركة</h4>
+                        <p>الذهبيه العالميه للسفر والسياحه</p>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9+%D9%84%D9%84%D8%B3%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9%E2%80%AD/@24.5753293,46.698213,659m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3e2f0f00341dcb43:0x7050a1667f20747a!8m2!3d24.5753244!4d46.6956381!16s%2Fg%2F11y5vhjp39?hl=ar&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>فرع المدينة</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9+%D9%84%D9%84%D8%B3%D9%81%D8%B1+%D9%88%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9%E2%80%AD/@24.5753244,46.6956381,3624m/data=!3m1!1e3!4m6!3m5!1s0x3e2f0f00341dcb43:0x7050a1667f20747a!8m2!3d24.5753244!4d46.6956381!16s%2Fg%2F11y5vhjp39?entry=tts&g_ep=EgoyMDI0MDkwOC4wKgBIAVAD">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>فرع الرياض</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <h4>الصفحات</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">الرئيسية</a></li>
+                            <li><a href="./pages/mn-nhn.html">من نحن</a></li>
+                            <li>
+                                <a href="./pages/alshrwt-walahkam.html">الشروط
+                                    والاحكام</a>
+                            </li>
+                            <li><a href="./pages/contact-us.html">تواصل
+                                    معنا</a></li>
+                            <li><a href="./pages/privacy-policy.html">سياسة
+                                    الخصوصية</a></li>
+                            <li>
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#bookingInquiryModal">استعلام
+                                    حجز</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <h4>تواصل معنا</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="tel:920029449"><i
+                                        class="fa-solid fa-phone-flip"></i>
+                                    920029449</a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/+966920029449"
+                                    target="_blank"><i
+                                        class="fab fa-whatsapp"></i>
+                                    920029449</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@gita.sa"><i
+                                        class="fas fa-envelope"></i>
+                                    info@gita.sa</a>
+                            </li>
+
+                        </div>
+                        <div class="col-md-3">
+                            <h4>افضل الوجهات</h4>
+                            <div class="footer-blog">
+                                <div class="media d-flex gap-4 mb-4">
+                                    <div class="img-part">
+                                        <a
+                                            href="index.html?originLocationCode=MED&amp;destinationLocationCode=RUH&amp;departureDate=2024-09-22&amp;returnDate=2024-09-30&amp;adults=1&amp;children=&amp;infants=&amp;travelClass=ECONOMY"><img
+                                                src="images/flights/destination/ruh.jpg"
+                                                class="img-fluid blur-up lazyload rounded-2"
+                                                alt
+                                                style="height: 100px"
+                                                loading="lazy" /></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5>القاهره للرياض</h5>
+                                        <p>2024-09-22 / 2024-09-30</p>
+                                    </div>
+                                </div>
+                                <div class="media d-flex gap-4">
+                                    <div class="img-part rounded5">
+                                        <a
+                                            href="index.html?originLocationCode=MED&amp;destinationLocationCode=DXB&amp;departureDate=2024-09-22&amp;returnDate=2024-09-30&amp;adults=1&amp;children=&amp;infants=&amp;travelClass=ECONOMY"><img
+                                                src="images/flights/destination/dxb.jpg"
+                                                class="img-fluid blur-up lazyload rounded-2"
+                                                alt
+                                                style="height: 100px"
+                                                loading="lazy" /></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5>القاهره لدبي</h5>
+                                        <p>2024-09-22 / 2024-09-30</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Footer Section -->
+
+            <!-- Start Copy Right -->
+            <div class="copyright py-3">
+                <div
+                    class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <p class="mb-2 mb-md-0 text-center">
+                        جميع الحقوق محفوظة لشركـــة الذهـبــية العــالـمـيـة
+                        للـسفـر
+                        والسـيـاحة
+                    </p>
+                    <div class="footer-social mb-2 mb-md-0">
+                        <ul class="list-unstyled d-flex mb-0">
+                            <li>
+                                <a href="https://www.facebook.com/gita2sa"><i
+                                        class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/gita2sa/"><i
+                                        class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/gita2sa"><i
+                                        class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.snapchat.com/add/gita2sa/"><i
+                                        class="fab fa-snapchat"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Copy Right -->
+
+            <!-- Start booking Inquiry Modal -->
+            <div
+                class="modal fade"
+                id="bookingInquiryModal"
+                tabindex="-1"
+                aria-labelledby="bookingInquiryModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title"
+                                id="bookingInquiryModalLabel">
+                                استعلام حجز
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form
+                                id="inq-form"
+                                action="https://gita.sa/pages/inquiry"
+                                method="GET">
+                                <div class="mb-3">
+                                    <label for="pnr" class="form-label">رقم
+                                        الحجز</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="pnr"
+                                        name="pnr"
+                                        required />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="lastName"
+                                        class="form-label">الاسم
+                                        الاخير</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="lastName"
+                                        name="lastName"
+                                        required />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal">
+                                الغاء
+                            </button>
+                            <button form="inq-form" type="submit"
+                                class="btn btn-main btn-sm">
+                                استعلام
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start Booking Room Modal -->
+            <div
+                class="modal fade"
+                id="bookingroomModal"
+                tabindex="-1"
+                aria-labelledby="bookingroomModal"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-accent fw-bold"
+                                id="bookingroomModal">
+                                احجز غرفتك
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close text-accent"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form
+                                id="inq-form"
+                                action="https://gita.sa/pages/inquiry"
+                                method="GET">
+                                <div class="row">
+                                    <div class="col-12 mb-3">
+                                        <div class="booking-room-option">
+                                            <label>
+                                                <input type="radio" name="option" />
+                                                <span class="custom-radio"></span> إقامة فقط
+                                            </label>
+
+                                            
+                                            <h6
+                                                class="text-accent fw-bold">SAR
+                                                5.965</h6>
+ 
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="booking-room-option">
+                                             <label>
+                                                <input type="radio" name="option" />
+                                                <span class="custom-radio"></span> إقامةوإفطار 
+                                            </label>
+                                            
+                                            <h6
+                                                class="text-accent fw-bold">SAR
+                                                5.965</h6>
+ 
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <div class="booking-room-option">
+                                             <label>
+                                                <input type="radio" name="option" />
+                                                <span class="custom-radio"></span>سرير إضافي
+                                            </label>
+                                            <h6
+                                                class="text-accent fw-bold">SAR
+                                                5.965</h6>
+ 
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button form="inq-form" type="submit"
+                                class="btn btn-main btn-sm btn-sub-room">
+                                متابعة للدفع
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="whatsapp-float d-flex">
+                <a href="https://wa.me/+966920029449" target="_blank">
+                    <img src="images/whatsapp.png" alt="WhatsApp" />
+                </a>
+            </div>
+
+            <script src="./js/jquery.min.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+            <script src="js/swiper-bundle.min.js"></script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+            <script src="./js/main.js"></script>
+
+        </body>
+    </html>

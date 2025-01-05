@@ -1,0 +1,36 @@
+@media (max-width:767px) {
+
+    /* smartphones and tablets -- min = 0 */
+   .search-hotel{
+        margin: 5px;
+        width: 98%;
+    }
+
+    .btns-popular   button{
+        margin-top: 10px;
+    }
+    .popular-hotels .card {
+        min-height: 500px;
+    }
+    .breadcrumb {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    /* Small screen - from 768 */
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    /* Medium Screen */
+
+
+}
+
+@media(min-width:1200px) {
+    /* large screen - from 1200 to higher */
+
+
+}
