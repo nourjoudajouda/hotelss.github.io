@@ -213,6 +213,7 @@ a {
   backdrop-filter: blur(11px);
   padding-left: 1rem;
   padding-right: 1rem;
+  background:rgb(230 230 230 / 20%);
 }
 .navbar .navbar-brand {
   display: inline-block;
