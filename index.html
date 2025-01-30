@@ -1316,7 +1316,7 @@
     <!-- End Home Section -->
 
     <!-- Start Features Section -->
-    <section class="features-section">
+    <section class="features-section" id="offers">
       <div class="container wow animate__animated animate__fadeInUp">
         <div class="swiper swiper-features">
           <div class="slider-heading mb-5 pt-4">
@@ -2686,5 +2686,20 @@
       <script
         src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
       <script src="./js/main.js"></script>
+        <script>
+        $(document).ready(function(){
+            // Check if URL has a hash and scroll to that section
+            if (window.location.hash) {
+                var hash = window.location.hash;
+                if ($(hash).length) {
+                    $("html, body").animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800);
+                }
+            }
+        });
+     
+    </script>
+
     </body>
   </html>
