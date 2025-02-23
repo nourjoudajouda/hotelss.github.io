@@ -1492,7 +1492,7 @@ ul {
 
 /* Start Collapse */
 .accordion-header {
-  background: #0082700D
+  background: #E6F3F1;
 }
 
 .Questions .accordion-item .accordion-body {
@@ -1766,7 +1766,7 @@ ul {
 }
 .accordion-body{
     --bs-bg-opacity: 1;
-    background: #f2f9f8;
+    background: #E6F3F1;
 }
 .accordion-body form input, form select{
   height:45px;
