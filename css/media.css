@@ -16,6 +16,11 @@
         font-size: 16px;
         font-weight: bold;
     }
+    #section1 .accordion-button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 @media(min-width:768px) and (max-width:991px) {
