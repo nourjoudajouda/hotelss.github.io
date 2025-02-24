@@ -116,11 +116,11 @@ const swiperSecondFeatures = new Swiper(".swiper-second-features", {
   infinite: true,
   initialSlide: 1, // Start from the second slide
   spaceBetween: 30,
-  // loop: true,
-  // autoplay: {
-  //   delay: 3000, // Time between slides (in milliseconds)
-  //   disableOnInteraction: false, // Keeps autoplay running after user interaction
-  // },
+  loop: true,
+  autoplay: {
+    delay: 3000, // Time between slides (in milliseconds)
+    disableOnInteraction: false, // Keeps autoplay running after user interaction
+  },
   breakpoints: {
     // when window width is >= 320px
     320: {
