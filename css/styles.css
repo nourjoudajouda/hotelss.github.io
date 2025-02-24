@@ -434,9 +434,19 @@ a {
 }
 
 /*  End Home Section */
-
+.swiper-second-features .swiper-slide-active {
+  z-index: 1000;
+  transform: scale(1.2) !important;
+}
 /* Statr Features Section */
 .features-section {
+  background-image: url("../images/backgrounds/features-section.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0;
+}
+.second-features-section {
   background-image: url("../images/backgrounds/features-section.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -444,7 +454,10 @@ a {
   margin-top: 100px;
   padding: 50px 0;
 }
-
+.second-features-section .swiper-features {
+  position: relative;
+  height: 350px;
+}
 .features-section .swiper-features {
   position: relative;
   height: 350px;
