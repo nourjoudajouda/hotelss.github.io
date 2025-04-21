@@ -148,3 +148,30 @@ tfoot th:last-child {
   border-radius: 10px;
   font-weight: bold;
 }
+.box-tb-1{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px
+}
+
+.second-tb-viation td{
+  text-align: center;
+}
+.third-tb-viation td,
+.third-tb-viation th {
+  text-align: center;
+}
+.row-tb-2{
+  border: 0.09px solid #008270;
+}
+.col-tb-2 {
+  background-color: #00806e;
+}
+.ul-viation{
+  direction: rtl;
+  text-align: start;
+}
